@@ -11,5 +11,9 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 		<setting name="logImpl"                  value="SLF4J" />  <!-- 指定 MyBatis 所用日志的具体实现 -->
 		<!-- <setting name="mapUnderscoreToCamelCase" value="true"/>  驼峰式命名 -->
 	</settings>
-	
+
+	<typeAliases>
+		<package name="com.ruoyi.common.core.domain.entity"></package>
+		<package name="com.ruoyi.popo.domain"></package>
+	</typeAliases>
 </configuration>
