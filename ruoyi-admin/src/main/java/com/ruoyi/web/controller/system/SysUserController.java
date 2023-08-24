@@ -285,4 +285,8 @@ public class SysUserController extends BaseController
         userService.checkUserAllowed(user);
         return toAjax(userService.changeStatus(user));
     }
+    
+    public AjaxResult test(String id) {
+        return toAjax(1);
+    }
 }
